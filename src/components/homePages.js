@@ -3,6 +3,9 @@ import './styles/homePages.css'
 import { MDBCol, MDBRow, MDBContainer } from 'mdbreact';
 import CasesCard from './casesCard';
 import Recommendations from './Recommendations'
+import {IoIosCall} from 'react-icons/io'
+import SafeImportant from './safeImportant'
+import WashHands from './washHands'
 class Home extends React.Component {
     state = {  }
     render() { 
@@ -41,9 +44,41 @@ class Home extends React.Component {
                     <Recommendations/>
                 </div>
                 <div className='Hotline-Container' style={{backgroundImage:`url('https://ncovid.themetags.com/img/blog/1.jpg')`}}>
-                    ff
+                    <div className='Hotline-Box'>
+                        <MDBContainer fluid>
+                            <MDBRow>
+                                <MDBCol sm='4'>
+                                    <div className='Hotline-Box-Img'>
+                                        <img className='Hotline-Image' src='https://ncovid.themetags.com/img/cta-man.svg'/>
+                                    </div>
+                                </MDBCol>
+                                <MDBCol sm='4'>
+                                    <div className='Hotline-Txt-Box'>
+                                        <div className='Hotline-Title'>Open 24h - Every Day!</div>
+                                        <div className='Hotline-Subtitle'>
+                                            Call us if you have any problems. We are here to help you.
+                                        </div>
+                                    </div>
+                                </MDBCol>
+                                <MDBCol sm='4'>
+                                    <div className='Hotline-Txt-Box'>
+                                        <button className='Hotline-Btn'>
+                                            <IoIosCall size={50}/> Call Emergency
+                                        </button>
+                                    </div>
+                                </MDBCol>
+                            </MDBRow>
+                        </MDBContainer>
+                    </div>
+                </div>
+                <div className='SafeImportant-Container'>
+                    <SafeImportant/>
+                </div>
+                <div className='WashHands-Container'>
+                    <WashHands/>
                 </div>
                 <div style={{height:'1000px'}}>
+
 
                 </div>
             </div>
