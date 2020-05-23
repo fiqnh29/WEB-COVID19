@@ -1,0 +1,17 @@
+
+.CaseCard-Container{
+    background: white;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+.CaseCard-Total{
+    font-size: 50px;
+}
+.CaseCard-Title{
+    font-size: 25px;
+    padding: 10px 0;
+}
+.CaseCard-Subtitle{
+    font-size: 18px;
+}
