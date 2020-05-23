@@ -135,3 +135,35 @@
     background: #f7f9fe;
     padding: 40px;
 }
+
+/* responsive */
+@media only screen and (max-width: 1200px) {
+    .Hotline-Container{
+        height: 100%;
+    }
+    .Hotline-Txt-Box{
+        text-align: center;
+        /* background: red; */
+        position: relative;
+        padding: 30px 0;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .CasesCard-Container{
+        padding: 30px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .Header-Container{
+        padding: 20px;
+        height: 90vh;
+
+    }
+    .Header-Title{
+        font-size: 40px;
+    }
+    .Header-Img{
+        width: 300px;
+        float: right;        
+    }
+}

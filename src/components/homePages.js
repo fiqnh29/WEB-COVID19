@@ -30,7 +30,7 @@ class Home extends React.Component {
                             </MDBCol>
                             <MDBCol md='5'>
                                 <div className='Header-Box-Img'>
-                                    <img width='100%' src='https://ncovid.themetags.com/img/hero-animation-03.svg'/>
+                                    <img className='Header-Img' width='100%' src='https://ncovid.themetags.com/img/hero-animation-03.svg'/>
                                 </div>
                             </MDBCol>
                         </MDBRow>
@@ -47,12 +47,12 @@ class Home extends React.Component {
                     <div className='Hotline-Box'>
                         <MDBContainer fluid>
                             <MDBRow>
-                                <MDBCol sm='4'>
+                                <MDBCol xl='4'>
                                     <div className='Hotline-Box-Img'>
                                         <img className='Hotline-Image' src='https://ncovid.themetags.com/img/cta-man.svg'/>
                                     </div>
                                 </MDBCol>
-                                <MDBCol sm='4'>
+                                <MDBCol xl='4'>
                                     <div className='Hotline-Txt-Box'>
                                         <div className='Hotline-Title'>Open 24h - Every Day!</div>
                                         <div className='Hotline-Subtitle'>
@@ -60,7 +60,7 @@ class Home extends React.Component {
                                         </div>
                                     </div>
                                 </MDBCol>
-                                <MDBCol sm='4'>
+                                <MDBCol xl='4'>
                                     <div className='Hotline-Txt-Box'>
                                         <button className='Hotline-Btn'>
                                             <IoIosCall size={50}/> Call Emergency

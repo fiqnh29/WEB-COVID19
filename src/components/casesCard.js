@@ -28,9 +28,9 @@ class Card extends React.Component {
     }
     render() { 
         return (  
-            <MDBContainer>
+            <MDBContainer fluid>
                 <MDBRow>
-                    <MDBCol sm='4'>
+                    <MDBCol md='4'>
                         <div className='CaseCard-Container'>
                             <div className='CaseCard-Total'>
                                 {this.state.activeCases.toLocaleString()}
@@ -43,7 +43,7 @@ class Card extends React.Component {
                             </div>
                         </div>
                     </MDBCol>
-                    <MDBCol sm='4'>
+                    <MDBCol md='4'>
                         <div className='CaseCard-Container'>
                             <div className='CaseCard-Total'>
                                 {this.state.recoveredCases.toLocaleString()}
@@ -56,7 +56,7 @@ class Card extends React.Component {
                             </div>
                         </div>
                     </MDBCol>
-                    <MDBCol sm='4'>
+                    <MDBCol md='4'>
                         <div className='CaseCard-Container'>
                             <div className='CaseCard-Total'>
                                 {this.state.deathCases.toLocaleString()}

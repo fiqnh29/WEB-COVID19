@@ -8,13 +8,13 @@ class Recomendations extends React.Component {
         return (  
             <div>
                 <MDBContainer>
-                    <MDBRow style={{position:'relative'}}>
-                        <MDBCol sm='6'>
-                            <div>
-                                <img width='100%' src='https://ncovid.themetags.com/img/recommendation.svg'/>
+                    <MDBRow>
+                        <MDBCol xl='6'>
+                            <div style={{background : 'red'}}>
+                                <img className='Rec-Img' width='100%' src='https://ncovid.themetags.com/img/recommendation.svg'/>
                             </div>   
                         </MDBCol>
-                        <MDBCol sm='6'>
+                        <MDBCol xl='6'>
                             <div className='Rec-Text-Box'>
                                 <div className='Rec-Title'>
                                     Recommendations to Prevent Infection Spread

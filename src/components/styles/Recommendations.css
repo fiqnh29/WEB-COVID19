@@ -33,3 +33,12 @@ li{
 
 
 }
+
+@media only screen and (max-width: 1200px) {
+    .Rec-Img{
+        width: 300px;
+    }
+    .Rec-Text-Box{
+        position: relative;
+    }
+}

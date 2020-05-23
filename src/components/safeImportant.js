@@ -8,7 +8,7 @@ class SafeImportant extends React.Component {
             <div>
                 <MDBContainer>
                     <MDBRow>
-                        <MDBCol sm='6'>
+                        <MDBCol xl='6'>
                             <div>
                                 <div className='SF-Title'> 
                                     How to Stay Safe Important Precautions
@@ -40,7 +40,7 @@ class SafeImportant extends React.Component {
 
                             </div>
                         </MDBCol>
-                        <MDBCol sm='6'>
+                        <MDBCol xl='6'>
                             <div className='SF-Box-Img'>
                                 <img className='SF-Image' src='https://ncovid.themetags.com/img/recommendations-2.svg'/>
                             </div>
