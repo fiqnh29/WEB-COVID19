@@ -10,7 +10,7 @@ class Recomendations extends React.Component {
                 <MDBContainer>
                     <MDBRow>
                         <MDBCol xl='6'>
-                            <div style={{background : 'red'}}>
+                            <div>
                                 <img className='Rec-Img' width='100%' src='https://ncovid.themetags.com/img/recommendation.svg'/>
                             </div>   
                         </MDBCol>
