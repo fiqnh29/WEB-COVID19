@@ -23,10 +23,11 @@
     /* background: red; */
     justify-content: center;
     display: flex;
+    text-align: center;
 
 }
 .WH-Img{
-    width: 100%;
+    width: 150px;
 }
 .WH-Card-Txt{
     text-align: center;

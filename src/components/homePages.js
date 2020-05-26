@@ -6,6 +6,7 @@ import Recommendations from './Recommendations'
 import {IoIosCall} from 'react-icons/io'
 import SafeImportant from './safeImportant'
 import WashHands from './washHands'
+import AllCountry from './allCountry'
 class Home extends React.Component {
     state = {  }
     render() { 
@@ -40,6 +41,7 @@ class Home extends React.Component {
                 <div className='CasesCard-Container'>
                     <CasesCard/>
                 </div>
+                
                 <div className='Recommendations-Container'>
                     <Recommendations/>
                 </div>
@@ -77,9 +79,8 @@ class Home extends React.Component {
                 <div className='WashHands-Container'>
                     <WashHands/>
                 </div>
-                <div style={{height:'1000px'}}>
-
-
+                <div className='AllCountry-Container'>
+                    <AllCountry/>
                 </div>
             </div>
         );
