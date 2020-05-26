@@ -135,7 +135,12 @@
     background: #f7f9fe;
     padding: 40px;
 }
+.Footer-Copyright{
+    text-align: center;
+    padding: 30px;
+    font-family: 'Nunito', sans-serif;
 
+}
 /* responsive */
 @media only screen and (max-width: 1200px) {
     .Hotline-Container{

@@ -82,6 +82,9 @@ class Home extends React.Component {
                 <div className='AllCountry-Container'>
                     <AllCountry/>
                 </div>
+                <div className='Footer-Copyright'>
+                    @fiqnh29
+                </div>
             </div>
         );
     }
