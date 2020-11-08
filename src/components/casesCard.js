@@ -42,6 +42,7 @@ class Card extends React.Component {
                                 Compellingly benchmark superior opportunities and functional technologies credibly communicate.
                             </div>
                         </div>
+                        <br/>
                     </MDBCol>
                     <MDBCol md='4'>
                         <div className='CaseCard-Container'>
@@ -55,6 +56,7 @@ class Card extends React.Component {
                                 Distinctively reconceptualize real-time partnerships with business markets extend sustainable.
                             </div>
                         </div>
+                        <br/>
                     </MDBCol>
                     <MDBCol md='4'>
                         <div className='CaseCard-Container'>

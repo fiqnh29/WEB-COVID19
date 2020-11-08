@@ -9,7 +9,18 @@ class AllCountry extends React.Component {
      }
 
     componentDidMount(){
+        this.getAllData()
         this.getData()
+    }
+
+    getAllData = async () => {
+        try{
+            console.log('.....')
+            let res = await Axios.get('https://api.covid19api.com/all')
+            console.log(res.data.length)
+        }catch(err){
+            console.log(err)
+        }
     }
 
     getData = async () => {
@@ -42,7 +53,7 @@ class AllCountry extends React.Component {
 
     render() { 
         return (  
-            <div>
+            <div style={{height: "500px", overflow: "auto"}}>
                 <MDBContainer fluid>
                 {/* <div>All Country</div> */}
                 <MDBTable responsiveXl striped className='AC-Table'>

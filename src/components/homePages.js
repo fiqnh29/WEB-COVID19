@@ -25,7 +25,7 @@ class Home extends React.Component {
                                         Holisticly procrastinate mission-critical convergence with reliable customer service. Assertively underwhelm idea-sharing for impactful solutions.
                                     </div>
                                     <div>
-                                        <button className='Button-HT-Protect'>How to protect</button>
+                                        <button className='Button-HT-Protect'><a href="#wash" style={{color: "white"}}>How to protect</a></button>
                                     </div>
                                 </div>
                             </MDBCol>
@@ -76,7 +76,7 @@ class Home extends React.Component {
                 <div className='SafeImportant-Container'>
                     <SafeImportant/>
                 </div>
-                <div className='WashHands-Container'>
+                <div className='WashHands-Container' id="wash">
                     <WashHands/>
                 </div>
                 <div className='AllCountry-Container'>
